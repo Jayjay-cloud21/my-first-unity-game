@@ -90,7 +90,7 @@ public class LogicSCript : MonoBehaviour
 
     public void ToggleMainMenu()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(0);
         if (AudioManager.instance.musicSource.isPlaying)
         {
             AudioManager.instance.musicSource.Stop();
