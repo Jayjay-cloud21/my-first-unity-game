@@ -28,6 +28,7 @@ public class MainMenu : MonoBehaviour
 
     public void QuitGame()
     {
-        Application.Quit();
+        // Application.Quit();
+        Application.OpenURL("https://jayjay-cloud21.itch.io/flappybella");
     }
 }
